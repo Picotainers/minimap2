@@ -28,7 +28,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: bishoyh/minimap2:latest
+        tags: picotainers/minimap2:latest
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
